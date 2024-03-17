@@ -1,7 +1,10 @@
 package Exception;
 
+
+
 public class Ex06_ExceptionThrow {
     public static void main(String[] args) {
+
         try{
             myMethod1(3);
         }catch (Exception e){
