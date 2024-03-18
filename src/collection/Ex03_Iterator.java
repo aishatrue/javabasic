@@ -6,11 +6,13 @@ import java.util.List;
 
 public class Ex03_Iterator {
     public static void main(String[] args) {
+
+
         List<String> list = new LinkedList<>();
 
         list.add("orange");
         list.add("apple");
-        list.add("applee");
+        list.add("apple");
         list.add("banana");
 
         for (String s : list)
